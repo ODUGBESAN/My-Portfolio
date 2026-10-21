@@ -126,3 +126,9 @@
   .contact-side small{font-size:8px}
   .site-footer>span,.back-top{font-size:8px}
 }
+
+.floating-call{position:fixed;right:24px;bottom:24px;z-index:25;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--lime);color:var(--ink);box-shadow:0 8px 24px #1d201b30;transition:transform .2s,box-shadow .2s}
+.floating-call:hover{transform:translateY(-4px) scale(1.04);box-shadow:0 12px 30px #1d201b3d}
+.floating-call:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+.floating-call svg{width:24px;height:24px;fill:currentColor}
+@media(max-width:650px){.floating-call{right:17px;bottom:17px;width:54px;height:54px}}
