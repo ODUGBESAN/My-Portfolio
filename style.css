@@ -76,7 +76,7 @@ button { font: inherit; }
 .of-section-heading h2 { margin: 15px 0 0; color: var(--of-ink); font: 600 clamp(38px, 4.7vw, 56px)/1.04 Manrope, sans-serif; letter-spacing: -.065em; }
 .of-section-heading h2 em { color: var(--of-rust); font-family: Georgia, serif; font-weight: 400; }
 .of-heading-note { padding-bottom: 5px; color: #7b888c; font-size: 8px; font-weight: 600; white-space: nowrap; }
-.of-work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.of-work-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
 .of-work-card { min-width: 0; overflow: hidden; border: 1px solid #dfe3df; border-radius: 8px; background: #fbfaf7; box-shadow: 0 4px 14px #182b3808; transition: transform .25s ease, box-shadow .25s ease; }
 .of-work-card:hover { transform: translateY(-4px); box-shadow: 0 18px 36px #182b3813; }
 .of-visual { position: relative; display: grid; height: 305px; overflow: hidden; place-items: center; }
@@ -100,6 +100,14 @@ button { font: inherit; }
 .of-page-copy > i { margin-top: 3px; padding: 7px 9px; border-radius: 2px; background: #168ed5; color: #fff; font-size: 6px; font-style: normal; }
 .of-page-sun { position: absolute; right: 3%; bottom: -22px; width: 110px; aspect-ratio: 1; border-radius: 50%; background: #1e4da9; box-shadow: 0 0 0 14px #1e4da91c, 0 0 0 28px #1e4da910; }
 .of-visual-two { background: linear-gradient(105deg, #2452c7 0 53%, #eef2fa 53% 100%); }
+.of-visual-three { background: radial-gradient(ellipse at 20% 15%, #76998f 0, transparent 40%), linear-gradient(135deg, #1e3744, #315c62); }
+.of-learning-panel { position: relative; display: flex; width: 72%; min-height: 215px; flex-direction: column; align-items: flex-start; justify-content: center; padding: 23px; border: 1px solid #ffffff35; border-radius: 7px; background: #f5f5f2; box-shadow: 0 18px 40px #10252c45; }
+.of-learning-mark { position: absolute; top: 15px; right: 16px; display: grid; width: 27px; height: 27px; place-items: center; border-radius: 50%; background: #dfe8df; color: #315c62; font: 700 12px Manrope, sans-serif; }
+.of-learning-panel > small { color: #657b75; font-size: 7px; font-weight: 700; letter-spacing: .14em; }
+.of-learning-panel > strong { margin-top: 17px; color: var(--of-ink); font: 700 clamp(25px, 3vw, 37px)/.95 Manrope, sans-serif; letter-spacing: -.06em; }
+.of-learning-panel > strong em { color: #a95f48; font-family: Georgia, serif; font-weight: 400; }
+.of-learning-line { width: 100%; margin-top: 17px; border-top: 1px solid #d9dedb; }
+.of-learning-caption { margin-top: 9px; color: #65737b; font-size: 7px; }
 .of-login-panel { width: min(52%, 245px); min-width: 185px; padding: 18px; border: 1px solid #e1e7ef; border-radius: 7px; background: #fff; box-shadow: 0 18px 38px #142a5433; }
 .of-login-brand { display: flex; align-items: center; gap: 8px; color: #1748af; font-size: 8px; font-weight: 800; letter-spacing: .05em; }
 .of-login-brand > span { display: grid; width: 25px; height: 25px; place-items: center; border-radius: 50%; background: #eef4ff; font: 700 12px Georgia, serif; }
@@ -172,6 +180,7 @@ button { font: inherit; }
   .of-about { grid-template-columns: .32fr 1.68fr; gap: 28px; }
   .of-about-content { gap: 34px; }
   .of-work-grid { gap: 18px; }
+  .of-work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .of-visual { height: 275px; }
   .of-skills-layout { margin-left: 10%; gap: 42px; }
 }
