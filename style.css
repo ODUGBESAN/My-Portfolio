@@ -9,7 +9,7 @@
 .tag-list span,.placeholder-chip{border-radius:3px}
 
 /* Live project gallery */
-.live-project-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.live-project-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .project-preview{isolation:isolate}
 .preview-browser{position:relative;width:88%;height:76%;background:#fffdf6;box-shadow:0 20px 45px #1e271b28;transform:rotate(-2deg);transition:transform .35s}
 .project-card:hover .preview-browser{transform:rotate(0) translateY(-3px)}
@@ -44,27 +44,13 @@
 .fake-input i{float:right;font:5px "DM Mono",monospace;color:#777}
 .fake-submit{height:25px;margin-top:9px;padding:7px 9px;border-radius:3px;background:#304735;color:white;font:6px "DM Sans",sans-serif}
 .fake-submit span{float:right;color:var(--lime)}
-.mitc-preview{background:#202438;color:#f6f2e8;padding:20px 22px}
-.mitc-top{display:flex;justify-content:space-between;align-items:center;color:#d4d3cc;font:6px "DM Mono",monospace;letter-spacing:.08em}
-.mitc-top>span:first-child{font:800 11px Manrope,sans-serif;color:#fff}
-.mitc-top i{font:400 5px "DM Mono",monospace;color:#c4c6d3}
-.mitc-main{position:absolute;left:10%;top:25%;right:9%;bottom:12%}
-.mitc-main>small{display:block;max-width:58%;font:5px "DM Mono",monospace;letter-spacing:.06em;color:#b7b8c5}
-.mitc-main>strong{display:block;margin-top:8px;font:600 clamp(17px,2vw,24px)/.99 Manrope,sans-serif;letter-spacing:-.07em;color:#f7f5ed}
-.mitc-main>strong em{font:400 italic 1em Georgia,serif;color:#b9d77a}
-.mitc-main>span{display:block;margin-top:8px;font:6px "DM Sans",sans-serif;color:#c0c0c8}
-.mitc-login{position:absolute;right:0;top:8%;width:43%;height:95%;min-width:105px;padding:12px 9px;background:#fffefb;border-radius:5px;box-shadow:0 13px 28px #0d102045;display:flex;flex-direction:column;gap:7px}
-.mitc-login>strong{font:600 8px Manrope,sans-serif;color:#26283a}
-.mitc-login>i{height:17px;padding:5px;border:1px solid #e7e6e1;border-radius:2px;font:4px "DM Sans",sans-serif;color:#95959a;font-style:normal}
-.mitc-login>i b{float:right;font-size:4px}
-.mitc-login>u{margin-top:auto;padding:6px;background:#424866;color:white;text-align:center;text-decoration:none;font:5px "DM Sans",sans-serif;border-radius:2px}
 .project-bottom{display:flex;align-items:center;justify-content:space-between;margin-top:19px;padding-top:12px;border-top:1px solid #ecebe3}
 .project-kind{font:6px "DM Mono",monospace;letter-spacing:.06em;color:#83877c}
 .project-bottom>a{font:7px "DM Mono",monospace;letter-spacing:.06em;color:#33392f}
 .project-bottom>a span{margin-left:5px;color:#d76c49;font-size:11px;transition:transform .2s}
 .project-bottom>a:hover span{display:inline-block;transform:translate(2px,-2px)}
 @media(max-width:950px){.live-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.live-project-grid .project-visual{height:300px}}
-@media(max-width:650px){.live-project-grid{grid-template-columns:1fr}.live-project-grid .project-visual{height:285px}.project-info{padding:20px}.school-copy>b{font-size:24px}.mitc-main>strong{font-size:24px}}
+@media(max-width:650px){.live-project-grid{grid-template-columns:1fr}.live-project-grid .project-visual{height:285px}.project-info{padding:20px}.school-copy>b{font-size:24px}}
 
 /* Project previews use the live sites' own brand palettes. */
 .school-preview{background:#dcecff}
@@ -87,14 +73,6 @@
 .portal-welcome small{color:#2c60c3}
 .fake-input{border-color:#d8dfec}
 .fake-submit{background:#2058e9}
-.mitc-preview{background:linear-gradient(90deg,#203f75 0 49%,#fafaf8 49% 100%);color:#f6f2e8}
-.mitc-top{color:#e7ecf7}
-.mitc-main>small{color:#cad6ee}
-.mitc-main>strong{color:#fff}
-.mitc-main>strong em{color:#f28e70}
-.mitc-main>span{color:#d1daea}
-.mitc-login{border:1px solid #e5e7eb;background:#fff}
-.mitc-login>u{background:#244879}
 @media(max-width:650px){.results-preview{padding-right:5%}.portal-card{min-width:145px;width:49%}}
 
 /* Readable supporting type across the portfolio */
