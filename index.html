@@ -3,79 +3,152 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f5f4f0" />
-    <meta name="description" content="Portfolio of Odugbesan Faruq, a frontend developer building thoughtful, responsive digital experiences." />
+    <meta name="theme-color" content="#f5f5f2" />
+    <meta name="description" content="Odugbesan Faruq is a frontend developer building thoughtful, responsive websites." />
     <title>Odugbesan Faruq — Frontend Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <a class="portfolio-skip-link" href="#main">Skip to content</a>
-    <header class="portfolio-site-header">
-      <a class="portfolio-brand" href="#home" aria-label="Odugbesan Faruq home"><span class="portfolio-brand-mark">OF</span><span>ODUGBESAN<br />FARUQ</span></a>
-      <button class="portfolio-menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
-      <nav class="portfolio-site-nav" id="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a class="portfolio-nav-contact" href="#contact">Let’s talk <span>↗</span></a>
+    <a class="of-skip" href="#main">Skip to content</a>
+    <header class="of-header">
+      <a class="of-brand" href="#home" aria-label="Odugbesan Faruq home">
+        <span class="of-brand-mark">OF</span>
+        <span>ODUGBESAN<br />FARUQ</span>
+      </a>
+      <button class="of-menu-toggle" type="button" aria-expanded="false" aria-controls="of-navigation" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="of-navigation" id="of-navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Selected work</a>
+        <a href="#skills">Skills</a>
+        <a class="of-nav-cta" href="#contact">Let’s talk <span>↗</span></a>
       </nav>
     </header>
 
     <main id="main">
-      <section class="portfolio-hero portfolio-section-wrap" id="home">
-        <div class="portfolio-hero-copy portfolio-reveal">
-          <div class="portfolio-eyebrow"><span class="portfolio-status-dot"></span> FRONTEND DEVELOPER <span class="portfolio-eyebrow-divider">/</span> NIGERIA</div>
-          <h1>I make the web<br />feel <span>alive.</span></h1>
-          <p class="portfolio-hero-intro">I’m Odugbesan Faruq — a web developer who turns ideas into thoughtful, responsive experiences built for real people.</p>
-          <div class="portfolio-hero-actions"><a class="portfolio-button portfolio-button-dark" href="#work">See what I build <span>↘</span></a><a class="portfolio-text-link" href="#about">Get to know me <span>↗</span></a></div>
-          <div class="portfolio-hero-index"><span>INDEPENDENT DEVELOPER</span><span>DESIGN · CODE · CURIOSITY</span></div>
+      <section class="of-hero of-wrap" id="home">
+        <div class="of-hero-copy of-reveal">
+          <div class="of-kicker"><span class="of-status"></span> FRONTEND DEVELOPER <i>/</i> NIGERIA</div>
+          <h1>I build websites<br />that feel <em>clear.</em></h1>
+          <p class="of-lede">I’m Odugbesan Faruq. I turn ideas into responsive, easy-to-use websites that help people find what they need.</p>
+          <div class="of-actions">
+            <a class="of-button of-button-primary" href="#work">Explore my work <span>↓</span></a>
+            <a class="of-quiet-link" href="#about">A little about me <span>↗</span></a>
+          </div>
+          <div class="of-hero-meta"><span>DESIGN · FRONTEND · DETAIL</span><span>AVAILABLE FOR OPPORTUNITIES</span></div>
         </div>
-        <div class="portfolio-hero-art portfolio-reveal" aria-label="Portrait of Odugbesan Faruq">
-          <div class="portfolio-portrait-halo"></div>
-          <div class="portfolio-portrait-frame"><img class="portfolio-hero-portrait" src="assets/faruq-portrait.jpeg" alt="Odugbesan Faruq standing in front of a brick wall" fetchpriority="high" /><span class="portfolio-portrait-stamp">ODUGBESAN<br />FARUQ <i>✳</i></span></div>
-          <div class="portfolio-portrait-note"><span class="portfolio-note-dot"></span><span>GOOD IDEAS<br />DESERVE GOOD DESIGN.</span></div>
-          <span class="portfolio-art-sparkle">✳</span>
+        <div class="of-portrait-area of-reveal" aria-label="Portrait of Odugbesan Faruq">
+          <div class="of-portrait-backdrop"></div>
+          <figure class="of-portrait-frame">
+            <img src="assets/faruq-portrait.jpeg" alt="Odugbesan Faruq standing in front of a brick wall" fetchpriority="high" />
+            <figcaption>ODUGBESAN FARUQ <span>✳</span></figcaption>
+          </figure>
+          <span class="of-image-note">THOUGHTFUL WORK<br />STARTS WITH LISTENING.</span>
         </div>
       </section>
-      <div class="portfolio-ticker" aria-label="Areas of interest"><div class="portfolio-ticker-track"><span>WEB DESIGN</span><b>✳</b><span>FRONTEND DEVELOPMENT</span><b>✳</b><span>CREATIVE PROBLEM SOLVING</span><b>✳</b><span>WEB DESIGN</span><b>✳</b><span>FRONTEND DEVELOPMENT</span><b>✳</b><span>CREATIVE PROBLEM SOLVING</span><b>✳</b></div></div>
 
-      <section class="portfolio-about portfolio-section-wrap" id="about">
-        <div class="portfolio-section-label portfolio-reveal"><span>01</span> ABOUT ME</div>
-        <div class="portfolio-about-content portfolio-reveal"><h2>Good websites should feel <em>easy, useful, and a little unforgettable.</em></h2><div class="portfolio-about-details"><p>I’m Faruq, a frontend developer who enjoys turning rough ideas into clean, responsive websites. I care about the details: the way a page flows, the way it feels on a phone, and how quickly someone can find what they need.</p><p>I work with HTML, CSS, and JavaScript, and I’m always learning something new with every build.</p><a class="portfolio-underlined-link" href="#contact">Have a project in mind? <span>↗</span></a></div></div>
+      <div class="of-focus-bar" aria-label="Areas of focus">
+        <div class="of-focus-inner"><span>WEB DESIGN</span><i>·</i><span>FRONTEND DEVELOPMENT</span><i>·</i><span>RESPONSIVE EXPERIENCES</span></div>
+      </div>
+
+      <section class="of-about of-wrap" id="about">
+        <div class="of-section-label of-reveal"><span>01</span> ABOUT</div>
+        <div class="of-about-content of-reveal">
+          <h2>Good websites should feel <em>easy to use.</em></h2>
+          <div class="of-about-copy">
+            <p>I’m a frontend developer who enjoys turning rough ideas into clean, responsive websites. I care about the details: how a page flows, how it feels on a phone, and how quickly someone can find what they need.</p>
+            <p>I work with HTML, CSS, and JavaScript, and I keep learning with every build.</p>
+            <a class="of-underlined-link" href="#contact">Have something in mind? <span>↗</span></a>
+          </div>
+        </div>
       </section>
 
-      <section class="portfolio-work portfolio-section-wrap" id="work">
-        <div class="portfolio-section-heading portfolio-reveal"><div><div class="portfolio-section-label"><span>02</span> SELECTED WORK</div><h2>Made with intention.<br /><em>Built to work.</em></h2></div><span class="portfolio-heading-note">SELECTED PROJECTS ↘</span></div>
-        <div class="portfolio-showcase-grid portfolio-live-showcase-grid">
-          <article class="portfolio-showcase-card portfolio-reveal">
-            <a class="portfolio-showcase-visual portfolio-showcase-preview portfolio-institution-preview" href="https://fadlomargroupofschoolsowodeyewa.com" target="_blank" rel="noopener noreferrer" aria-label="Visit the Fadlomar school website">
-              <div class="portfolio-preview-browser"><div class="portfolio-preview-browser-bar"><span></span><span></span><span></span><b>fadlomargroupofschoolsowodeyewa.com</b></div><div class="portfolio-institution-site"><div class="portfolio-institution-nav"><strong>FADL-I-OMAR</strong><span>HOME　 ABOUT　 GALLERY　 CONTACT</span></div><div class="portfolio-institution-copy"><small>WELCOME TO FADL-I-OMAR MODEL COLLEGE</small><b>Building tomorrow’s<br /><em>leaders.</em></b><span>Learning, character, and a brighter future.</span><i>DISCOVER OUR SCHOOL　 ↗</i></div><div class="portfolio-institution-sun"></div></div></div><span class="portfolio-showcase-open">↗</span>
+      <section class="of-work of-wrap" id="work">
+        <div class="of-section-heading of-reveal">
+          <div><div class="of-section-label"><span>02</span> SELECTED WORK</div><h2>Built with care.<br /><em>Made to work.</em></h2></div>
+          <span class="of-heading-note">A FEW THINGS I’VE MADE ↘</span>
+        </div>
+        <div class="of-work-grid">
+          <article class="of-work-card of-reveal">
+            <a class="of-visual of-visual-one" href="https://fadlomargroupofschoolsowodeyewa.com" target="_blank" rel="noopener noreferrer" aria-label="Visit the Fadlomar Group of Schools website">
+              <div class="of-browser-window">
+                <div class="of-browser-bar"><span></span><span></span><span></span><b>fadlomargroupofschoolsowodeyewa.com</b></div>
+                <div class="of-page-one">
+                  <div class="of-page-nav"><strong>FADL-I-OMAR</strong><span>HOME　 ABOUT　 GALLERY</span></div>
+                  <div class="of-page-copy"><small>WELCOME TO FADL-I-OMAR MODEL COLLEGE</small><b>Building tomorrow’s<br /><em>leaders.</em></b><span>Learning, character, and a brighter future.</span><i>DISCOVER OUR SCHOOL　↗</i></div>
+                  <div class="of-page-sun"></div>
+                </div>
+              </div>
+              <span class="of-visual-arrow">↗</span>
             </a>
-            <div class="portfolio-showcase-info"><div class="portfolio-showcase-meta"><span>SCHOOL WEBSITE</span><span>01</span></div><h3>Fadlomar Group of Schools</h3><p>A school website introducing its learning community, facilities, activities, and news.</p><div class="portfolio-showcase-bottom"><span class="portfolio-showcase-kind">INSTITUTIONAL</span><a href="https://fadlomargroupofschoolsowodeyewa.com" target="_blank" rel="noopener noreferrer">VISIT SITE <span>↗</span></a></div></div>
+            <div class="of-card-content">
+              <div class="of-card-overline"><span>INSTITUTIONAL WEBSITE</span><span>01</span></div>
+              <h3>Fadlomar Group of Schools</h3>
+              <p>A welcoming online home for the school’s learning community, facilities, activities, and news.</p>
+              <a class="of-card-link" href="https://fadlomargroupofschoolsowodeyewa.com" target="_blank" rel="noopener noreferrer">VISIT WEBSITE <span>↗</span></a>
+            </div>
           </article>
-          <article class="portfolio-showcase-card portfolio-reveal">
-            <a class="portfolio-showcase-visual portfolio-showcase-preview portfolio-results-preview" href="https://result.fadlomargroupofschoolsowodeyewa.com" target="_blank" rel="noopener noreferrer" aria-label="Visit the Fadlomar results portal">
-              <div class="portfolio-results-orb"></div><div class="portfolio-portal-card"><div class="portfolio-portal-brand"><span class="portfolio-portal-emblem">F</span><span>FADLOMAR<br /><small>GROUP OF SCHOOLS</small></span></div><div class="portfolio-portal-welcome"><small>STUDENT PORTAL</small><b>Welcome back</b><span>Sign in to your account</span></div><div class="portfolio-fake-input">Email address</div><div class="portfolio-fake-input">Password <i>●●●●●●</i></div><div class="portfolio-fake-submit">Sign in <span>↗</span></div></div><span class="portfolio-showcase-open">↗</span>
+
+          <article class="of-work-card of-reveal">
+            <a class="of-visual of-visual-two" href="https://result.fadlomargroupofschoolsowodeyewa.com" target="_blank" rel="noopener noreferrer" aria-label="Visit the Fadlomar results portal">
+              <div class="of-login-panel">
+                <div class="of-login-brand"><span>F</span><b>FADLOMAR<small>GROUP OF SCHOOLS</small></b></div>
+                <div class="of-login-copy"><small>STUDENT PORTAL</small><strong>Welcome back</strong><span>Sign in to your account</span></div>
+                <div class="of-input-shape">Email address</div>
+                <div class="of-input-shape">Password <i>••••••</i></div>
+                <div class="of-submit-shape">Sign in <span>↗</span></div>
+              </div>
+              <span class="of-visual-arrow">↗</span>
             </a>
-            <div class="portfolio-showcase-info"><div class="portfolio-showcase-meta"><span>RESULTS PORTAL</span><span>02</span></div><h3>Student results system</h3><p>A dedicated sign-in portal for the school’s academic results system.</p><div class="portfolio-showcase-bottom"><span class="portfolio-showcase-kind">EDUCATION</span><a href="https://result.fadlomargroupofschoolsowodeyewa.com" target="_blank" rel="noopener noreferrer">VISIT SITE <span>↗</span></a></div></div>
+            <div class="of-card-content">
+              <div class="of-card-overline"><span>RESULTS PORTAL</span><span>02</span></div>
+              <h3>Student results system</h3>
+              <p>A dedicated sign-in experience for students accessing their academic results.</p>
+              <a class="of-card-link" href="https://result.fadlomargroupofschoolsowodeyewa.com" target="_blank" rel="noopener noreferrer">VISIT WEBSITE <span>↗</span></a>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="portfolio-skills portfolio-section-wrap" id="skills">
-        <div class="portfolio-section-label portfolio-reveal"><span>03</span> TOOLS I WORK WITH</div>
-        <div class="portfolio-skills-layout"><h2 class="portfolio-reveal">Building blocks<br />for better <em>websites.</em></h2><div class="portfolio-skill-list portfolio-reveal"><div><span>01</span><b>HTML</b><small>STRUCTURE & ACCESSIBILITY</small><i>↗</i></div><div><span>02</span><b>CSS</b><small>LAYOUT & RESPONSIVE DESIGN</small><i>↗</i></div><div><span>03</span><b>JavaScript</b><small>INTERACTION & FUNCTIONALITY</small><i>↗</i></div><div><span>04</span><b>React</b><small>COMPONENT-BASED UI</small><i>↗</i></div></div></div>
+      <section class="of-skills of-wrap" id="skills">
+        <div class="of-section-label of-reveal"><span>03</span> SKILLS</div>
+        <div class="of-skills-layout">
+          <h2 class="of-reveal">The tools behind<br />the <em>experience.</em></h2>
+          <div class="of-skill-list of-reveal">
+            <div><span>01</span><b>HTML</b><small>STRUCTURE & ACCESSIBILITY</small><i>↗</i></div>
+            <div><span>02</span><b>CSS</b><small>LAYOUT & RESPONSIVE DESIGN</small><i>↗</i></div>
+            <div><span>03</span><b>JavaScript</b><small>INTERACTION & FUNCTIONALITY</small><i>↗</i></div>
+            <div><span>04</span><b>React</b><small>COMPONENT-BASED UI</small><i>↗</i></div>
+          </div>
+        </div>
       </section>
 
-      <section class="portfolio-contact portfolio-section-wrap" id="contact">
-        <div class="portfolio-contact-copy portfolio-reveal"><div class="portfolio-section-label"><span>04</span> GET IN TOUCH</div><h2>Let’s make something <em>meaningful.</em></h2><p>I’m open to learning, collaboration, and new opportunities. Reach out and let’s start a conversation.</p><a class="portfolio-button portfolio-button-light" href="tel:+2347018710344">Call me <span>↗</span></a></div>
-        <div class="portfolio-contact-side portfolio-reveal"><span class="portfolio-contact-star">✳</span><div><small>BASED IN</small><strong>Nigeria</strong></div><div><small>FOCUSING ON</small><strong>Web design & frontend</strong></div><span class="portfolio-contact-note">GOOD THINGS<br />START WITH A HELLO.</span></div>
+      <section class="of-contact" id="contact">
+        <div class="of-contact-inner">
+          <div class="of-contact-copy of-reveal">
+            <div class="of-section-label"><span>04</span> GET IN TOUCH</div>
+            <h2>Have a good idea?<br /><em>Let’s build it.</em></h2>
+            <p>I’m open to collaboration, new opportunities, and thoughtful conversations.</p>
+            <a class="of-button of-button-light" href="tel:+2347018710344">Call me <span>↗</span></a>
+          </div>
+          <div class="of-contact-aside of-reveal"><span class="of-contact-rule"></span><div><small>BASED IN</small><strong>Nigeria</strong></div><div><small>FOCUS</small><strong>Web design & frontend</strong></div><span class="of-contact-note">GOOD WORK<br />STARTS WITH A HELLO.</span></div>
+        </div>
       </section>
     </main>
 
-    <footer class="portfolio-site-footer"><a class="portfolio-brand portfolio-footer-brand" href="#home"><span class="portfolio-brand-mark">OF</span><span>ODUGBESAN<br />FARUQ</span></a><span>DESIGNED & BUILT WITH CARE</span><span>© <span id="year">2026</span> ODUGBESAN FARUQ</span><a href="#home" class="portfolio-back-top">BACK TO TOP ↑</a></footer>
-    <a class="portfolio-floating-call" href="tel:+2347018710344" aria-label="Call Odugbesan Faruq" title="Call me">
+    <footer class="of-footer">
+      <a class="of-brand" href="#home"><span class="of-brand-mark">OF</span><span>ODUGBESAN<br />FARUQ</span></a>
+      <span>DESIGNED & BUILT WITH CARE</span>
+      <span>© <span id="year">2026</span> ODUGBESAN FARUQ</span>
+      <a class="of-back-top" href="#home">BACK TO TOP ↑</a>
+    </footer>
+
+    <a class="of-floating-call" href="tel:+2347018710344" aria-label="Call Odugbesan Faruq" title="Call me">
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.02l-2.22 2.2Z"/></svg>
     </a>
   </body>
