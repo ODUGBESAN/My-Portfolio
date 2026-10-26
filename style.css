@@ -100,12 +100,12 @@ button { font: inherit; }
 .of-page-copy > i { margin-top: 3px; padding: 7px 9px; border-radius: 2px; background: #168ed5; color: #fff; font-size: 6px; font-style: normal; }
 .of-page-sun { position: absolute; right: 3%; bottom: -22px; width: 110px; aspect-ratio: 1; border-radius: 50%; background: #1e4da9; box-shadow: 0 0 0 14px #1e4da91c, 0 0 0 28px #1e4da910; }
 .of-visual-two { background: linear-gradient(105deg, #2452c7 0 53%, #eef2fa 53% 100%); }
-.of-visual-three { background: radial-gradient(ellipse at 20% 15%, #76998f 0, transparent 40%), linear-gradient(135deg, #1e3744, #315c62); }
+.of-visual-three { background: radial-gradient(ellipse at 20% 15%, #91b9f4 0, transparent 40%), linear-gradient(135deg, #173775, #2452c7); }
 .of-learning-panel { position: relative; display: flex; width: 72%; min-height: 215px; flex-direction: column; align-items: flex-start; justify-content: center; padding: 23px; border: 1px solid #ffffff35; border-radius: 7px; background: #f5f5f2; box-shadow: 0 18px 40px #10252c45; }
-.of-learning-mark { position: absolute; top: 15px; right: 16px; display: grid; width: 27px; height: 27px; place-items: center; border-radius: 50%; background: #dfe8df; color: #315c62; font: 700 12px Manrope, sans-serif; }
-.of-learning-panel > small { color: #657b75; font-size: 7px; font-weight: 700; letter-spacing: .14em; }
+.of-learning-mark { position: absolute; top: 15px; right: 16px; display: grid; width: 27px; height: 27px; place-items: center; border-radius: 50%; background: #e5edff; color: #2452c7; font: 700 12px Manrope, sans-serif; }
+.of-learning-panel > small { color: #456ab4; font-size: 7px; font-weight: 700; letter-spacing: .14em; }
 .of-learning-panel > strong { margin-top: 17px; color: var(--of-ink); font: 700 clamp(25px, 3vw, 37px)/.95 Manrope, sans-serif; letter-spacing: -.06em; }
-.of-learning-panel > strong em { color: #a95f48; font-family: Georgia, serif; font-weight: 400; }
+.of-learning-panel > strong em { color: #2452c7; font-family: Georgia, serif; font-weight: 400; }
 .of-learning-line { width: 100%; margin-top: 17px; border-top: 1px solid #d9dedb; }
 .of-learning-caption { margin-top: 9px; color: #65737b; font-size: 7px; }
 .of-login-panel { width: min(52%, 245px); min-width: 185px; padding: 18px; border: 1px solid #e1e7ef; border-radius: 7px; background: #fff; box-shadow: 0 18px 38px #142a5433; }
